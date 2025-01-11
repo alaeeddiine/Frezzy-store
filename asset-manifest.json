@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/frezzy-store/static/css/main.6f16ba93.css",
+    "main.js": "/frezzy-store/static/js/main.76f43727.js",
+    "static/js/453.d50ac06d.chunk.js": "/frezzy-store/static/js/453.d50ac06d.chunk.js",
+    "index.html": "/frezzy-store/index.html",
+    "main.6f16ba93.css.map": "/frezzy-store/static/css/main.6f16ba93.css.map",
+    "main.76f43727.js.map": "/frezzy-store/static/js/main.76f43727.js.map",
+    "453.d50ac06d.chunk.js.map": "/frezzy-store/static/js/453.d50ac06d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f16ba93.css",
+    "static/js/main.76f43727.js"
+  ]
+}
