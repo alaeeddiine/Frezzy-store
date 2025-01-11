@@ -1,0 +1,210 @@
+/* Styles globaux */
+.app-container {
+    background-color: #d0e6f7;
+    color: #000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  
+  /* Menu */
+  .header {
+    background-color: #0063a0; /* Bleu clair */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  /* Section Produits */
+  .products-section {
+    padding: 20px;
+  }
+  
+  .products-section h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #000;
+  }
+  
+  .products-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out; /* Animation de zoom */
+  }
+  
+  .product-card:hover {
+    transform: scale(1.1); /* Zoom quand la souris est dessus */
+  }
+  
+  .product-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out; /* Animation d'agrandissement */
+  }
+  
+  .product-image:hover {
+    transform: scale(1.1); /* Zoom sur l'image quand la souris est dessus */
+  }
+  
+  .buy-button {
+    background-color: #ffc107; /* Jaune */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #000;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+  }
+  
+  .buy-button:hover {
+    background-color: #ffd54f; /* Jaune clair */
+    transform: translateY(-3px); /* Léger effet de "rebond" */
+  }
+  
+  /* Section Avis */
+  .feedback-section {
+    padding: 40px 20px;
+  }
+  
+  .feedback-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-textarea {
+    width: 80%;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    resize: none;
+    margin-bottom: 20px;
+  }
+  
+  .send-button {
+    background-color: #ffc107; /* Jaune */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #000;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+  }
+  
+  .send-button:hover {
+    background-color: #ffd54f; /* Jaune clair */
+    transform: translateY(-3px); /* Léger effet de "rebond" */
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #0063a0; /* Bleu clair */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .social-link {
+    color: #ffc107; /* Jaune */
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out, transform 0.2s;
+  }
+  
+  .social-link:hover {
+    color: #ffd54f; /* Jaune clair */
+    transform: scale(1.1); /* Zoom sur les liens au survol */
+  }
+/* Section Produits */
+.products-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .product-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product-image:hover {
+    transform: scale(1.1); /* Zoom uniquement sur l'image */
+  }
+  
+  .product-description {
+    font-size: 0.9rem;
+    margin: 10px 0;
+  }
+  
+  .subscription-select {
+    width: 80%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #87CEFA; /* Bleu clair */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2); /* Zoom sur les icônes */
+  }
+  
